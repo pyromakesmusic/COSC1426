@@ -16,7 +16,7 @@ def main():
     budget = float(input("What was your budget last month?"))
     most_expensivest = "NA"
     for i in range(expenditures):
-        item_name = input("Item name: ")
-        item_price = float(input("Item price: "))
+        item_name = input(f"Item # name: ")
+        item_price = float(input(fs"Item price: "))
 
 main()
