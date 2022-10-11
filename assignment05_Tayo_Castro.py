@@ -6,7 +6,7 @@ Assignment 05
 """
 def running_total(iterations):
     most_expensivest = "NA"
-    for i in range(interations):
+    for i in range(iterations):
         item_name = input("Item name: ")
         item_price = float(input("Item price: "))
 
@@ -16,7 +16,13 @@ def main():
     budget = float(input("What was your budget last month?"))
     most_expensivest = "NA"
     for i in range(expenditures):
-        item_name = input(f"Item # name: ")
-        item_price = float(input(fs"Item price: "))
+        running_total(i)
 
 main()
+
+"""
+DESIGN DOC QUESTIONS
+====================
+
+
+"""
