@@ -24,9 +24,9 @@ def init():
     print_input = input_to_flag(input("Would you like to print X, Y, or Zee? [yes/no] "))
     return print_input
 def print_x(size, symbol="o"):
-    for i in range(0, size + 2, 2):
+    for row in range(0, ((2 * size) + 1)):
         print(symbol, end="")
-        for j in range(i, size + 2):
+        for col in range(row, size + 2):
             print(" ", end="")
         print()
         print(symbol)
@@ -89,7 +89,7 @@ def main():
         char_print()
         print_flag = input_to_flag(input("Print again? [yes/no] "))
 
-# main()
+main()
 
 
 """
