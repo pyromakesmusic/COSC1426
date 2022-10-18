@@ -23,6 +23,21 @@ def init():
     """
     print_input = input_to_flag(input("Would you like to print X, Y, or Zee? [yes/no] "))
     return print_input
+def top_triangle(size, symbol):
+    for row in range(0, size + 1, 2):
+        for x in range(row):
+            print(" ", end="")
+        for col in range(size - row):
+            print("* ", end = "")
+        print()
+    return
+
+def bottom_triangle(size, symbol):
+    return
+
+def leg(size, symbol):
+    return
+
 def print_x(size, symbol="o"):
     for row in range(0, ((2 * size) + 1)):
         print(symbol, end="")
@@ -89,8 +104,9 @@ def main():
         char_print()
         print_flag = input_to_flag(input("Print again? [yes/no] "))
 
-main()
+# main()
 
+top_triangle(9, "0")
 
 """
 DESIGN DOC QUESTIONS
