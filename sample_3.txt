@@ -1,0 +1,17 @@
+4
+a_is_for.txt
+2
+apple
+apricot
+b_is_for.txt
+2
+ball
+brains
+c_is_for.txt
+2
+cat
+car
+d_is_for.txt
+2
+dog
+dragon

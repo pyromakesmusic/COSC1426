@@ -47,6 +47,15 @@ main()
 """
 DESIGN DOC QUESTIONS
 ====================
-
+● How long did this assignment take you?
+About half an hour.
+● How did you like getting skeleton code? Was it helpful?
+Less useful in this case; the function skeletons were not much more than I would have done instinctively upon opening the project
+● Explain your implementation of get_file_object.
+I'm just thinking of it like a wrapper that contains all the ugly exception logic and acts smoothly from the outside.
+● Explain your implementation of write_single_file.
+Nested for loops according to the named structure of the data.
+● What was the most difficult part of this assignment?
+Putting together the file writing loop.
 
 """

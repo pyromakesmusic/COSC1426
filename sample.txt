@@ -1,0 +1,12 @@
+2
+primary_colors.txt
+3
+red
+blue
+yellow
+mythical_creatures.txt
+4
+unicorn
+dragon
+griffin
+kitsune

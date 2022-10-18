@@ -1,0 +1,8 @@
+1
+favorite_things.txt
+5
+roses
+kittens
+mittens
+kettles
+bows
