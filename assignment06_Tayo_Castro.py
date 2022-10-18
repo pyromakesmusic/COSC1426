@@ -23,8 +23,23 @@ def init():
     """
     print_input = input_to_flag(input("Would you like to print X, Y, or Zee? [yes/no] "))
     return print_input
+def print_x(size, symbol="o"):
+    for i in range(0, size + 2, 2):
+        print(symbol, end="")
+        for j in range(i, size + 2):
+            print(" ", end="")
+        print()
+        print(symbol)
 
-def print_loop(item, symbol="", size):
+    return
+
+def print_y(size):
+    return
+
+def print_face(face):
+    return
+
+def print_loop(letter_or_character, letter, face, size, symbol=""):
     """
     Main logic for the printing of the characters
     :param item:
@@ -32,7 +47,11 @@ def print_loop(item, symbol="", size):
     :param size:
     :return:
     """
-    print(f"Printing {item} of size {size}")
+    print(f"Printing {letter_or_character} of size {size}")
+    if letter_or_character == "letter":
+        print_x(size, symbol)
+    elif letter_or_character == "character":
+        pass
     return
 
 def char_print():
@@ -42,24 +61,26 @@ def char_print():
     """
     l_or_c = input("What would you like to print? [letter/character] ")
     symbol = ""
+    letter = ""
+    face = ""
+
     while l_or_c != "letter" and l_or_c != "character":
         l_or_c = input("Sorry, I can't print that, try again: ")
     if l_or_c == "letter":
-        item = input("What letter? [x/y] ")
-        while item != "x" and item != "y":
-            item = input("Sorry, I don't know how to print that letter, try again: ")
+        letter = input("What letter? [x/y] ")
+        while letter != "x" and letter != "y":
+            letter = input("Sorry, I don't know how to print that letter, try again: ")
         symbol = input("What symbol would you like to use? ")
         while symbol == "":
             symbol = input("Oops, you didn't enter anything, try again: ")
     elif l_or_c == "character":
-        item = input("What face would you like to use? [cute/meh/wow/neutral]")
+        face = input("What face would you like to use? [cute/meh/wow/neutral]")
         while face != "cute" and face != "meh" and face != "wow" and face!= "neutral":
-            item = input("That isn't a valid face, try again: ")
+            face = input("That isn't a valid face, try again: ")
 
     size = random.randint(1,5)
-    print(size)
 
-    print_loop(l_or_c, item, symbol, size)
+    print_loop(l_or_c, letter, face, size, symbol)
     return
 
 def main():
@@ -68,7 +89,7 @@ def main():
         char_print()
         print_flag = input_to_flag(input("Print again? [yes/no] "))
 
-main()
+# main()
 
 
 """
