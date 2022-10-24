@@ -17,6 +17,7 @@ def split_file():
 def append_files():
     filename = input("Name of file to write into: ")
     file_obj = open(filename, "w")
+    print("File append successful.")
 	pass
 
 
