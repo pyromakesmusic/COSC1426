@@ -73,9 +73,14 @@ main()
 DESIGN DOC QUESTIONS
 ====================
 ● How long did you spend on the assignment?
+Maybe three or four hours.
 ● Did you do the extension?
+Nope.
 ● What would you have changed given more time/knowledge?
+I could have done the extension.
 ● Explain your splitting implementation.
+I used the modulo operator to determine whether the line being read was even or odd.
 ● Explain your appending implementation.
+I used a while loop to validate the user input of filenames.
 
 """
