@@ -109,6 +109,14 @@ main()
 """
 DESIGN DOC QUESTIONS
 ====================
-
+● How long did this assignment take you?
+2 or 3 hours.
+● Did you complete the extension?
+No.
+● Explain your logic behind keeping track of the board information.
+I tried to pass the list through as a variable. This does not seem to have worked for some reason. I even messed around 
+with the nonlocal keyword and couldn't get it to run. Stumped.
+● Explain the code for checking for a winner.
+It was supposed to check for all the different types of win condition.
 
 """
