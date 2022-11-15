@@ -103,7 +103,6 @@ def main():
 
     return
 
-main()
 
 
 """
